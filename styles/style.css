@@ -1,0 +1,56 @@
+body {
+    height: 100%;
+    min-height: 100%;
+}
+
+h1 {
+  text-align: center;
+  border-style: groove;
+  border-color: red green blue yellow;
+  border-width: 5px;
+  background: aqua;
+}
+
+h2 {
+  color: darkviolet;
+}
+
+h3 {
+  color: fuchsia;
+}
+
+p {
+  color: grey;
+}
+
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+ul
+  {
+  list-style-type: none;
+  }
+
+footer {
+  clear: both;
+  position: relative;
+  text-align: center;
+  border-style: groove;
+  border-color: red green blue yellow;
+  border-width: 5px;
+  background: aqua;
+  z-index: 10;
+  margin-top: -3em;
+}
